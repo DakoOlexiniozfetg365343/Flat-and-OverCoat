@@ -21,7 +21,7 @@ int Flat::getPrice() const {
 }
 
 bool Flat::operator==(const Flat &other) const {
-    return this == &other;
+     return area == other.area;
 }
 
 Flat &Flat::operator=(const Flat &other) {
